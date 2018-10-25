@@ -1,0 +1,68 @@
+body
+{
+	background: white;
+	font-family: 'SFProDisplay-Regular';
+}
+#header
+{
+	position: fixed;
+	width: 35vw;
+	height: 10vw;
+	left: 10vw;
+	top: 13vw;
+}
+#logo
+{
+	-webkit-user-drag: none;
+  	-khtml-user-drag: none;
+  	-moz-user-drag: none;
+  	-o-user-drag: none;
+}
+#text
+{
+	position: fixed;
+	width: 35vw;
+	height: 10vw;
+	left: 10vw;
+	top: 23vw;
+	color: #061027;
+	font-size: 1.3vw;
+}
+.dot 
+{
+    border-radius: 50%;
+	display: inline-block;
+	position: fixed;
+	opacity: 0.5;
+}
+#dot1
+{
+	top: 90%;
+	height: 20vw;
+	width: 20vw;
+	left: 18%;
+	background-color: #89bee5;
+}
+#dot2
+{
+	top: 25%;
+	height: 30vw;
+	width: 30vw;
+	left: 80%;
+	background-color: #a3cdec;
+}
+#dot3
+{
+	top: -37%;
+	height: 25vw;
+	width: 25vw;
+	left: 48%;
+	background-color: #c3def2;
+}
+@font-face 
+{
+ 	font-family: 'SFProDisplay-Regular';
+ 	src: url('../font/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),  url('../font/SFProDisplay-Regular.otf')  format('opentype'), url('../font/SFProDisplay-Regular.woff') format('woff'), url('../font/SFProDisplay-Regular.ttf')  format('truetype'), url('../font/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
+}
